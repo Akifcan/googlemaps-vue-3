@@ -49,7 +49,7 @@ createApp(App)
 
 Custom Icon
 You can set custom icon or use default icon ![defaulticon](https://i.hizliresim.com/8UefTs.png)
-Note: Default Icon From [TurkHub](https://www.flaticon.com/authors/turkkub)
+Note: Default Icon From [TurkHub](https://i.hizliresim.com/dX9CHa.png)
 
 - When you add new marker map will be re-render
 
