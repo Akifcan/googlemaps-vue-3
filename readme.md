@@ -163,7 +163,7 @@ Note: User Position Icon From [Alfredo Hernandez](https://www.flaticon.com/autho
 ## Layers
 
 - Layers = [trafficLayer, bicycleLayer, transitLayer]
-  `<GoogleMap :init="initializeGoogleMap" :markers="markers" :layers="['trafficLayer', 'bicycleLayer']" />`
+- `<GoogleMap :init="initializeGoogleMap" :markers="markers" :layers="['trafficLayer', 'bicycleLayer']" />`
 
 ## Custom Tile
 
@@ -218,15 +218,15 @@ Note: User Position Icon From [Alfredo Hernandez](https://www.flaticon.com/autho
         lng: -122.439666,
       },
     ]);
-<GoogleMap :init="initializeGoogleMap"
-      :heatMap="heatMapDatas"
+<GoogleMap :init="initializeGoogleMap" :heatMap="heatMapDatas"
   />
 
 ```
 
 ## Reverse Geocoding
 
-<GoogleMap :init="initializeGoogleMap"
+```<GoogleMap :init="initializeGoogleMap"
 :useReverseGeocode="true"
 @geocoding="geo = \$event"
-/>
+/>`
+```
