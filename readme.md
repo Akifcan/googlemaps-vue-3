@@ -8,18 +8,18 @@
 
 ## Features
 
-[x] Markers
-[x] Get User Location (using: https://geolocation-db.com/json/)
-[x] Street View
-[x] Polylines
-[x] Polygons
-[x] Layers (Traffic, Transit, Bicycle)
-[x] Reverse Geocode
-[x] Heat Map
-[x] Custom Tile
-[x] Add Marker OnClick
-[x] Custom OnClick Function
-[x] Custom Center Change Function
+- [x] Markers
+- [x] Get User Location (using: https://geolocation-db.com/json/)
+- [x] Street View
+- [x] Polylines
+- [x] Polygons
+- [x] Layers (Traffic, Transit, Bicycle)
+- [x] Reverse Geocode
+- [x] Heat Map
+- [x] Custom Tile
+- [x] Add Marker OnClick
+- [x] Custom OnClick Function
+- [x] Custom Center Change Function
 
 ## Setup
 
