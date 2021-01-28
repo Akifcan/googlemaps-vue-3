@@ -1,0 +1,25 @@
+{
+  "name": "googlemaps-vue3",
+  "version": "2.0.2",
+  "description": "Google Maps Javascript Library Api For Vue.js 3",
+  "main": "GoogleMap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akifcan/googlemaps-vue-3.git"
+  },
+  "keywords": [
+    "map",
+    "googlemap",
+    "maps",
+    "google"
+  ],
+  "author": "seaapi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akifcan/googlemaps-vue-3/issues"
+  },
+  "homepage": "https://github.com/Akifcan/googlemaps-vue-3#readme"
+}
