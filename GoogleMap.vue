@@ -72,6 +72,23 @@ export default {
                 icon: "https://i.hizliresim.com/8UefTs.png",
               });
             });
+          if (props.tile) {
+            var TILE_URL = props.tile;
+            var layer = new google.maps.ImageMapType({
+              name: "customtile",
+              getTileUrl: function (coord, zoom) {
+                var url = TILE_URL.replace("{x}", coord.x)
+                  .replace("{y}", coord.y)
+                  .replace("{z}", zoom);
+                return url;
+              },
+              tileSize: new google.maps.Size(256, 256),
+              minZoom: 1,
+              maxZoom: 20,
+            });
+            map.mapTypes.set("customtile", layer);
+            map.setMapTypeId("customtile");
+          }
         }
         if (props.tile) {
           var TILE_URL = props.tile;
