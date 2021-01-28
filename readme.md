@@ -120,7 +120,7 @@ Custom OnClick Event
 
 ## Get User Position
 
-Note: User Position Icon From [Alfredo Hernandez](https://www.flaticon.com/authors/alfredo-hernandez)
+Note: User Position Icon ![current-location-icon](https://i.hizliresim.com/8UefTs.png) From [Alfredo Hernandez](https://www.flaticon.com/authors/alfredo-hernandez)
 `<GoogleMap :init="initializeGoogleMap" :markers="markers" :getUserLocation="true" />`
 
 ## Polylines
